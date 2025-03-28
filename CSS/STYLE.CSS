@@ -287,7 +287,7 @@ footer{
     background-color: var(--main-color);
 }
 
-.social-media {
+.social-media img{
     width: 3.5rem;
 }
 .social-media a {
@@ -301,7 +301,7 @@ footer{
     border-radius: 50%;
     font-size: 2rem;
     color: var(--main-color);
-    margin: 1.8rem 1rem 0.5rem 0;
+    margin: 0.5rem 0.5rem 0.5rem 0;
     transition: 0.5s ease;
 
 }
@@ -334,7 +334,7 @@ footer{
 }
 
 /* menu hamburguer */
-.menu-hamburguer{
+.menu-mobile{
     display: none;
     cursor: pointer;    
 }
@@ -342,10 +342,9 @@ footer{
 .bar1, .bar2, .bar3 {
     width: 2rem;
     height: 0.3rem;
-    background-color: var(--text-color);
-    margin: 0.4 rem 0;
+    background-color: var(--main-color);
+    margin: 0.4rem 0;
     transition: 0.3s ease;
-
 }
 
 .change .bar1 {
@@ -367,7 +366,7 @@ footer{
 /* media queries */
 /* extra small (smartphone) */
 @media (min-width: 0px ) {
-    .menu-hamburguer{
+    .menu-mobile{
        display: block;
     }
     
