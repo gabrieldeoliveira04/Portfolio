@@ -15,6 +15,5 @@ function toggleMenu() {
     else{
         nav.style.display = 'none';
     }
-
-
+    
 }

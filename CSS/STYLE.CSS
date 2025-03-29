@@ -359,7 +359,7 @@ footer{
 }
 
 .change .bar1 {
-    transform: translate(0 0.65rem) rotate(-45deg);
+    transform: translateY(0 0.65rem) rotate(-45deg);
 }
 
 .change .bar2 {
@@ -367,7 +367,7 @@ footer{
 }
 
 .change .bar3 {
-    transform: translate(0 -0.65rem) rotate(45deg);
+    transform: translateY(0 -0.65rem) rotate(45deg);
 }
 
 /* /menu hamburguer */
