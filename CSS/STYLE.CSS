@@ -512,7 +512,7 @@ footer{
     }
 
     .services-container{
-        flex-direction: row;
+        flex-direction: flex;
         gap: 1.2rem;
     }
 
