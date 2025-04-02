@@ -442,6 +442,10 @@ footer{
         flex-direction: column;
         align-items: center;
     }
+    .services-container h3{
+        align-items: center;
+        width: 100%;
+    }
 
     .services-box{
         width: 100%;
