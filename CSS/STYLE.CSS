@@ -425,6 +425,7 @@ footer{
 
     .home-content, .about-content{
         width: 100%;
+        text-align: center;
     }
 
     .home-content div {
