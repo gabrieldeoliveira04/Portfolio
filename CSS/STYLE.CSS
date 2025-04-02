@@ -436,6 +436,7 @@ footer{
         font-size: 3rem;
         font-weight: 700;
         line-height: 1.3;
+        text-align: center;
     }
 
     .services-container {
