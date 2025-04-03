@@ -14,6 +14,22 @@ function toggleMenu() {
     }
     else{
         nav.style.display = 'none';
+    } 
+}
+
+function leiaMais(){
+    var pontos=document.getElementById("pontos");
+    var maisTexto=document.getElementById("mais");
+    var btnleiamais=document.getElementById("btnleiamais")
+
+    if(pontos.style.display === "none"){
+        pontos.style.display="inline";
+        maisTexto.style.display="none";
+        btnleiamais.innerHTML="Leia mais";
+
+    } else{
+        pontos.style.display="none";
+        maisTexto.style.display="inline";
+        btnleiamais.innerHTML="Leia Menos";
     }
-    
 }
