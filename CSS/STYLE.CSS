@@ -119,6 +119,7 @@ span{
 .home-img img{
     width: 100%;
 }
+
 .about-img img{
     width: 100%;
 
@@ -153,6 +154,8 @@ span{
 #mais{
     display: none;
 }
+
+/* botão leia mais */
 
 .service h2,
 .portfolio h2,
@@ -228,6 +231,8 @@ span{
     width: 100%;
     transition: 0.5s ease;
 }
+
+
 
 .portfolio-box img:hover{
     transform: scale(1.1);
@@ -480,11 +485,6 @@ footer{
     .services-box{
         width: 100%;
     }
-
-
-    header {
-        /* background-color: var(--color-02); test */
-    }  
 }
 
 /* tablet medium */
@@ -509,12 +509,19 @@ footer{
 
     }
 
-    .home-img, .about-img{
-        max-width:80%;
+    .home-img{
+        width: 100%;
+        max-width:100%;
     }
 
+    .about-img{
+        width: 50%;
+        max-width:100%;
+    }
+
+
     .home-content, .about-content{
-        width: 500%;
+        width: 100%;
     }
     
     /* .services-container {
@@ -535,19 +542,21 @@ footer{
     form .input-box {
         width: 49%;
     }
+    /* header {
+        background-color: var(--color-04); 
+    }    */
 
-    header {
-        /* background-color: var(--color-03); test */
-    }  
 }
 
 /* notebook large */
 @media (min-width: 992px) {
 
-    .home-img, .about-img{
-        max-width:80%;
+    .home-img img{
+        max-width: 100%;
     }
-
+    .about-img{
+        max-width:30%;
+    }
     .services-container{
         flex-direction: flex;
         gap: 1.2rem;
@@ -556,18 +565,23 @@ footer{
     .services-box{
         width: 100%;
     }
+    /* header {
+        background-color: var(--color-02); 
+    }     */
 
-    header {
-        /* background-color: var(--color-04); test */
-    }     
 }
 
 /* desktop extra large */
 @media (min-width: 1200px) {
 
-    .home-img, .about-img{
-        max-width:100%;
+    .home-img, .home-img img{
+        width: 500%;
     }
+
+    .about-img{
+        width: 25%;
+    }
+
 
     .home-content h1 {
         font-size: 2.7rem;
@@ -580,9 +594,9 @@ footer{
         grid-template-columns: auto;
     }
 
-    header {
-        /* background-color: var(--text-color); test */
-    }     
+    /* header {
+        background-color: var(--text-color); 
+    }      */
 }
 
 
