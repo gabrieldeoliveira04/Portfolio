@@ -198,7 +198,7 @@ span{
 }
 
 .services-box h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .services-box p{
@@ -206,7 +206,6 @@ span{
     letter-spacing: 0.1rem;
     /* A depender do numero de linhas... entao tocar no botao leia mais para ver o resto*/
     display: -webkit-box;
-    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
