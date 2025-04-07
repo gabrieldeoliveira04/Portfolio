@@ -469,6 +469,13 @@ footer{
         font-size: 100%;
     }
 
+    .services-box p{
+        width: 100%;
+        text-align: center;
+        font-size: 100%;
+    }
+
+
     /* header {
         background-color: var(--bg-cxolor-02); test
     }   */
