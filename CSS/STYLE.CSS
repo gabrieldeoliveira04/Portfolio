@@ -602,11 +602,11 @@ footer{
     }
 
     .portfolio-box{
-        width: 60%;
+        width: 50%;
     }
     .portfolio-box img{
-    justify-content: center;
-    align-items: center;
+    display: block;
+    margin: auto;
     }
 
     /* header {
