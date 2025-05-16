@@ -605,8 +605,7 @@ footer{
         width: 50%;
     }
     .portfolio-box img{
-    display: block;
-    margin: auto;
+    text-align: center;
     }
 
     /* header {
