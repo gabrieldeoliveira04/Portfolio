@@ -598,10 +598,9 @@ footer{
 
     .portfolio-container{
         grid-template-columns: auto;
-    }
-    .portfolio-box img{
         width: 70%;
     }
+
 
     /* header {
         background-color: var(--text-color); 
