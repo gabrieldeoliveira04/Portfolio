@@ -598,11 +598,11 @@ footer{
 
     .portfolio-container, portfolio-box{
         grid-template-columns: auto;
-        width: 50%;
-        align-content: center;
-
+        width:100%;
     }
-
+    .portfolio-container, portfolio-box img{
+        width:80%;
+    }
 
     /* header {
         background-color: var(--text-color); 
