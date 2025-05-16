@@ -596,12 +596,9 @@ footer{
         font-size: 2.7rem;
     }
 
-    .portfolio-container, portfolio-box{
+    .portfolio-container, portfolio-container img, portfolio-box, portfolio-box img{
         grid-template-columns: auto;
-        width:100%;
-    }
-    .portfolio-container, portfolio-box img{
-        width:100%;
+        width:80%;
     }
 
     /* header {
