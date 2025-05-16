@@ -596,19 +596,18 @@ footer{
         font-size: 2.7rem;
     }
 
-    .portfolio-container{
+    .portfolio-container, .portfolio-container img{
         grid-template-columns: auto;
         width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .portfolio-box{
         width: 50%;
     }
-    .portfolio-container img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
+
 
     /* header {
         background-color: var(--text-color); 
