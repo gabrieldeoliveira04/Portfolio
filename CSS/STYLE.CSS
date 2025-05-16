@@ -599,7 +599,7 @@ footer{
     .portfolio-container, .portfolio-container img{
         grid-template-columns: auto;
         width:100%;
-        display: flex;
+        display: column;
         justify-content: center;
         align-items: center;
     }
