@@ -596,7 +596,7 @@ footer{
         font-size: 2.7rem;
     }
 
-    .portfolio-container, .portfolio-container img{
+    .portfolio-container, .portfolio-container img, .portfolio-layer{
         grid-template-columns: auto;
         width:100%;
         display: column;
