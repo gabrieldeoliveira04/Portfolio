@@ -599,6 +599,9 @@ footer{
     .portfolio-container{
         grid-template-columns: auto;
     }
+    .portfolio-box img{
+        width: 100%;
+    }
 
     /* header {
         background-color: var(--text-color); 
