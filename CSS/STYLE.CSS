@@ -602,7 +602,10 @@ footer{
     }
 
     .portfolio-box{
-        width: 50%;
+        width: 60%;
+    }
+    .portfolio-box img{
+        align-items: center;
     }
 
     /* header {
