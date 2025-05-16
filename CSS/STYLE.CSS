@@ -598,7 +598,7 @@ footer{
 
     .portfolio-container, portfolio-box{
         grid-template-columns: auto;
-        width: 70%;
+        width: 100%;
         align-items: center;
     }
 
