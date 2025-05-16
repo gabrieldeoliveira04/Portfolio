@@ -597,8 +597,8 @@ footer{
     }
 
     .portfolio-container, portfolio-container img, portfolio-box, portfolio-box img{
-        grid-template-columns: auto;
-        width:80%;
+        grid-template-rows: auto;
+        width:100%;
     }
 
     /* header {
