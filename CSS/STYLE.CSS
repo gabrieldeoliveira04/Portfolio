@@ -605,8 +605,9 @@ footer{
         width: 50%;
     }
     .portfolio-container img{
-        display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
 
     /* header {
