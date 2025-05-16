@@ -607,6 +607,9 @@ footer{
     .portfolio-box{
         width: 100%;
     }
+    .portfolio-box img{
+        width: 100%;
+    }
 
 
     /* header {
